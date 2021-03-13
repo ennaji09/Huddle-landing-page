@@ -1,0 +1,155 @@
+body{
+    
+   /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2380F'/%3E%3Cstop offset='1' stop-color='%23f40'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='24' height='24' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='12' cy='12' r='12'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E");
+    */
+    background-color: hsl(257, 40%, 49%);;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.body-container{
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.bg-img{
+   
+    width: 75%;
+    height: 20%;
+    position:relative;
+    z-index: -1;
+}
+.navbar{
+    margin-bottom: 5%;
+}
+
+.logo{
+    margin-left: 1.1rem;
+    margin-top: 1.5rem;
+}
+.row{
+    margin-bottom: 5%;
+}
+.main-image{
+    width: 90%;
+}
+
+h1{
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.main-paragraph{
+    padding-top: 1rem;
+}
+
+.register-btn {
+	box-shadow: 0px 3px 12px -1px #000000;
+	background-color:#ffffff;
+	border-radius:35px;
+	border:1px solid #ffffff;
+	cursor:pointer;
+	color:hsl(257, 40%, 49%);
+	padding:16px 31px;
+	text-decoration:none;
+    width: 50%;
+}
+.register-btn:hover {
+	background-color:hsl(300, 69%, 71%);
+}
+.register-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.icons-container{
+    text-align: end;
+}
+
+.icon{
+    color: white;
+}
+
+.icon:hover{
+    color:hsl(300, 69%, 71%);
+}
+
+.attribution{
+    text-align: center;
+    font-size: 0.5rem;
+}
+.footer-link{
+    color: hsl(300, 69%, 71%);
+}
+
+.footer-link:hover{
+    color: black;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .row{
+        text-align: center;
+    }
+    .main-image{
+        width: 90%;
+    }
+    h1{
+        padding-top: 3rem;
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+
+    .main-paragraph{
+        
+        padding-top: 2rem;
+        margin: 2rem auto;
+    }
+    .register-btn{
+        text-align: center;
+        margin: 1rem auto 4rem auto;
+        width: 70%;
+    }
+
+    .register-btn:hover {
+        background-color:hsl(300, 69%, 71%);
+    }
+    .register-btn:active {
+        position:relative;
+        top:1px;
+    }
+    
+
+    .icons-container{
+        text-align: center;
+    }
+
+    .icon{
+        margin: 0 0.5rem;
+    }
+
+    .icon:hover{
+        color:hsl(300, 69%, 71%);
+    }
+    
+    .footer-link{
+        color: hsl(300, 69%, 71%);
+    }
+    
+    .footer-link:hover{
+        color: black;
+    }
+    
+    .attribution{
+        text-align: center;
+        font-size: 0.5rem;
+    }
+}
